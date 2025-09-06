@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - STARSYS</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <a href="index.html" class="logo-link">
+                <img src="images/LOGO_STARSYS.png" alt="Logo STARSYS" class="logo-img">
+            </a>
+            <ul class="nav-links">
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="a-propos.html">À Propos</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="realisations.html">Réalisations</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+             <div class="menu-toggle">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="section">
+            <div class="container">
+                <h2 style="padding-top: 4rem;">Prêt à Démarrer Votre Projet ?</h2>
+                <div class="contact-grid">
+                    <div class="contact-form">
+                        <h3>Envoyez-nous un message</h3>
+                        <!-- NOTE : Ce formulaire est visuel et non fonctionnel. -->
+                        <form>
+                            <input type="text" name="nom" placeholder="Votre nom complet" required>
+                            <input type="email" name="email" placeholder="Votre adresse e-mail" required>
+                            <input type="text" name="sujet" placeholder="Sujet de votre demande" required>
+                            <textarea name="message" rows="6" placeholder="Votre message" required></textarea>
+                            <button type="submit" class="btn">ENVOYER</button>
+                        </form>
+                    </div>
+                    <div class="contact-info">
+                        <h3>Nos Coordonnées</h3>
+                        <ul>
+                            <li><strong>Adresse :</strong> Siège social à Fès, Maroc</li>
+                            <li><strong>Téléphone :</strong> +212 661 67 42 62</li>
+                            <li><strong>Email :</strong> contact@starsys.ma <br><small>(Adresse recommandée)</small></li>
+                        </ul>
+                        <img src="https://picsum.photos/500/300?random=10" alt="Carte de Fès" style="border-radius: 10px;">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2024 STARSYS. Tous droits réservés.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
